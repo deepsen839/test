@@ -1,0 +1,6 @@
+ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'test1';
+CREATE USER 'deep'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'test1';
+GRANT ALL PRIVILEGES ON *.* TO 'deep'@'localhost' WITH GRANT OPTION;
+user-default:phpmyadmin
+password:test1
+
